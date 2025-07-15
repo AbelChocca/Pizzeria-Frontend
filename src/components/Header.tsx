@@ -4,6 +4,7 @@ import Menu from './Menu'
 
 const Header = () => {
     const { user, logout } = useAuth();
+    console.log("CI/CD corriendo con ACTIONS");
   return (
     <header className='w-full h-15 flex items-center bg-white border-b-4 border-red-400 justify-around'>
         <div className='flex items-center space-x-2 m-2'>
