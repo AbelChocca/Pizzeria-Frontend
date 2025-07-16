@@ -5,7 +5,7 @@
   color: #dd4949 !important; 
 }
 .mySwiper {
-    height: 64vh !important;
+    height: auto !important;
 }
 .swiper-pagination-bullet-active {
   background-color: #ef4444 !important; 

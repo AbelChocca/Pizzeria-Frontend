@@ -13,7 +13,7 @@ const SliderImages = () => {
     setIndex(next => (next + 1) % images.length)
   }
   return (
-    <div className='static'>
+    <div className='relative'>
         <img 
             src={images[index]}
             alt={`Slider ${index + 1}`}
